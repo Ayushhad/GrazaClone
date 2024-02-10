@@ -90,7 +90,7 @@ const App = () => {
         <Carousel showArrows={false} showThumbs={false} selectedItem={selectedImageIndex}>
           {imageUrls.map((url, index) => (
             <div key={index}>
-              <img src={url} alt={`Image ${index + 1}`} />
+              <img src={url} alt={`logo_${index + 1}`} />
             </div>
           ))}
         </Carousel>
